@@ -1,0 +1,43 @@
+body {
+  background-image: url(./bg.jpg);
+  width: 100vw;
+}
+.home {
+  margin-top: 200px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.big-title {
+  text-align: center;
+  /* color: white; */
+  color: "orange";
+  font-size: 50px;
+}
+.fill-form {
+  width: 100%;
+  display: flex;
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container-white {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 40%;
+  padding: 50px;
+  padding-top: 30px;
+  border-radius: 20px;
+  text-align: left;
+  background-color: rgba(255, 255, 255, 0.85);
+}
+.query {
+  font-weight: bolder;
+  color: rgb(78, 200, 34);
+}
+.btn-outline-warning:hover {
+  color: #fff; /* Change text color to white on hover */
+}
